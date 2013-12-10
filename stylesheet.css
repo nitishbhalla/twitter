@@ -1,0 +1,140 @@
+body {
+  background-color: #1a9bc4; }
+
+#header {
+  z-index: 1;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 62px;
+  margin-top: -20px; }
+
+#right {
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 25px;
+  color: white; }
+
+#left {
+  position: absolute;
+  float: left;
+  margin-top: 2px;
+  margin-left: 150px; }
+
+#welcome {
+  position: absolute;
+  height: 350px;
+  width: 600px;
+  margin: 100px 400px 200px 200px;
+  background-color: white;
+  border-radius: 7px; }
+
+#twit {
+  padding: 2px;
+  float: left;
+  font-family: Sans-serif;
+  margin-right: 250px;
+  margin-top: 30px;
+  margin-left: 30px; }
+  #twit p, #twit .footer a, .footer #twit a {
+    color: lightgrey; }
+
+#image {
+  padding: 2px;
+  float: right;
+  margin-top: -159px; }
+
+#storelinks {
+  padding: 4px;
+  height: 20px;
+  width: 420px;
+  margin-left: 5px;
+  margin-top: 280px; }
+  #storelinks a {
+    text-decoration: none;
+    color: lightblue; }
+  #storelinks a:hover {
+    text-decoration: underline; }
+
+#form1 {
+  position: absolute;
+  height: 125px;
+  width: 360px;
+  margin: 100px 150px 300px 820px;
+  background-color: white;
+  border-radius: 7px; }
+
+#form2 {
+  position: absolute;
+  height: 225px;
+  width: 360px;
+  margin: 230px 150px 200px 820px;
+  background-color: white;
+  border-radius: 7px; }
+  #form2 p, #form2 .footer a, .footer #form2 a {
+    font-size: 20px; }
+
+#form21 {
+  background-color: white;
+  height: 50px;
+  width: 359px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  margin-top: 0px;
+  border: 1px solid lightgrey; }
+
+#signup {
+  margin-left: 14px;
+  margin-top: 8px;
+  color: lightgrey; }
+  #signup strong {
+    color: black; }
+
+#two {
+  margin-top: 0px; }
+
+#fullname, #email, #password {
+  margin-left: 10px;
+  height: 20px;
+  width: 150px;
+  border-radius: 3px; }
+
+#signu {
+  margin-left: 10px;
+  height: 30px;
+  width: 150px;
+  border-radius: 7px;
+  background-color: yellow; }
+
+#start {
+  margin-left: 10px;
+  margin-top: 3px;
+  height: 20px;
+  width: 300px;
+  border-radius: 4px; }
+
+#signin {
+  margin-left: 10px;
+  height: 20px;
+  width: 200px;
+  border-radius: 4px; }
+
+#submit {
+  height: 30px;
+  width: 70px;
+  border-radius: 8px;
+  background-color: lightblue;
+  color: white; }
+
+.footer {
+  position: absolute;
+  height: 30px;
+  width: 80%;
+  margin-left: 230px;
+  margin-top: 550px; }
+  .footer p, .footer a {
+    color: white;
+    padding: 7px;
+    font-size: 12px; }
+  .footer a {
+    text-decoration: none; }
